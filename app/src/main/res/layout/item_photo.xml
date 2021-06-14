@@ -1,0 +1,44 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="photos"
+            type="com.example.pelmorextest.model.Photo" />
+    </data>
+
+
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_photo_grid_round_corner"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:src="@mipmap/ic_launcher"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_photo_number"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_time_detail_rounded_corner"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="2"
+            android:textColor="#ffffff"
+            android:textSize="12sp"></TextView>
+
+    </RelativeLayout>
+
+</layout>

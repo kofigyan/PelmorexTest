@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PelmorexTest</string>
+
+    <string name="dialog_postive_yes">Yes</string>
+    <string name="dialog_postive_ok">Ok</string>
+    <string name="dialog_postive_no">No</string>
+    <string name="dialog_postive_cancel">Cancel</string>
+    <string name="feels_like">Feels like %s</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="degree_symbol">\u2103</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="btn_submit">Submit</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="label_no_photo_added"><![CDATA["    <string name=\"label_no_photo_added\">No photo added yet.Click plus button below</string> "]]></string>
+
+    <string-array name="cities_array">
+        <item>Toronto</item>
+        <item>Montreal</item>
+        <item>Ottawa</item>
+        <item>Vancouver</item>
+        <item>Calgary</item>
+    </string-array>
+
+    <string-array name="cities_code_array">
+        <item>CAON0696</item>
+        <item>CAON0423</item>
+        <item>CAON0512</item>
+        <item>CABC0308</item>
+        <item>CAAB0049</item>
+    </string-array>
+
+
+</resources>

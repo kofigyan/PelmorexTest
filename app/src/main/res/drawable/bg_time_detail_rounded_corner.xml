@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#368BC1" />
+
+    <stroke
+        android:width="@dimen/photo_item_border_width"
+        android:color="#368BC1" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/photo_item_corner_radius"
+        android:bottomRightRadius="@dimen/photo_item_corner_radius" />
+
+</shape>
