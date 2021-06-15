@@ -29,7 +29,6 @@ class CommentActivity : BaseActivity<CommentViewModel, ActivityCommentBinding>()
 
         setUpObserver()
 
-      //  nameCheckObserver()
     }
 
     private fun setUpListeners() {
@@ -47,12 +46,5 @@ class CommentActivity : BaseActivity<CommentViewModel, ActivityCommentBinding>()
         }
     }
 
-//    private fun nameCheckObserver() {
-//        lifecycleScope.launch {
-//            viewModel.nameTypedValidResult.collect {
-//                binding.tvPossibleError.text = it
-//            }
-//        }
-//    }
 
 }
