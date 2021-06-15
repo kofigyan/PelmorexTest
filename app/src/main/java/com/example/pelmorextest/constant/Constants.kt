@@ -9,6 +9,10 @@ const val EMPTY_NETWORK_RESPONSE_MESSAGE = "Empty message"
 
 const val ERROR_NETWORK_RESPONSE_MESSAGE = "Network Error. Try Again"
 
+const val TEXT_TYPING_DELAY_MS = 500L
+
+const val MIN_VALID_NAME_LENGTH = 4
+
 
 // RV = recyclerview
 const val RV_NUMBER_OF_COLUMNS = 3
